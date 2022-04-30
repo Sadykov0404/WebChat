@@ -70,7 +70,7 @@ export const Chats = () => {
       <div className="shaddow">
         <div className="nav-bar background">
           <div className="logo-tab">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" width={100}/>
           </div>
           <div className="logout-tab" onClick={handleLogout}>
             Logout
