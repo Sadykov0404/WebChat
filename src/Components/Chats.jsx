@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logo from "./Loader/logo.png";
 
 import { useNavigate } from "react-router-dom";
 import { ChatEngine } from "react-chat-engine";
@@ -68,7 +69,9 @@ export const Chats = () => {
     <div className="background">
       <div className="shaddow">
         <div className="nav-bar background">
-          <div className="logo-tab">Web-Chat</div>
+          <div className="logo-tab">
+            <img src={logo} alt="" />
+          </div>
           <div className="logout-tab" onClick={handleLogout}>
             Logout
           </div>
